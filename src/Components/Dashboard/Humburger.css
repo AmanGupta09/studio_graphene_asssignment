@@ -1,0 +1,74 @@
+/* App.css */
+
+/* Common styles for both mobile and desktop */
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 767px) {
+    .navbar {
+      background-color: transparent;
+      color: #fff;
+      padding: 10px 0;
+    }
+  
+    .navbar.open {
+      height: auto;
+    }
+  
+    .navbar-toggle {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+  
+    .bar {
+      width: 30px;
+      height: 3px;
+      background-color: #fff;
+      margin: 3px 0;
+    }
+  
+    .navbar-menu {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      position: absolute;
+      top: 88px; /* Adjust the top position as needed */
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.3s ease-in-out;
+      z-index: 10;
+    }
+  
+    .navbar-menu.open {
+      transform: scaleY(1);
+    }
+  
+    .navbar-menu li {
+      margin: 15px 0;
+    }
+  
+    .navbar-menu a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+  

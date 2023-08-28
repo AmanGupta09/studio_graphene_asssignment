@@ -1,0 +1,165 @@
+.footer {
+    height: 520px;
+    flex-shrink: 0;
+    background: url(https://s3-alpha-sig.figma.com/img/9c64/9ecb/dc1cdc661f9e78135f72e2b52d3dccf5?Expires=1693785600&Signature=Zg9qbTeNeWOFN5KLW0I2i~9D7fFHaq2hgbHtrbTV0Idt8Fs4fUyRtdVdLtvlavXJzqF4EgOSugapDBBJLZr2oSxC5T3BkP~UFqCctJ8ca4CYAX0eF3iSvBclRHbfABd9Ta3Hm~Q-Q0ImsRcdKKyBXP5rz3qilzm4Z3Dlum4CsUM7etRTUJzHmQlfgv3IM5WQ-C8wSzptx36xqvMo7pkRhe0gclzJcc7dUfNDXu4PchMVsQRupLed8KXb19UQrBVFIHri2Y3ujOrN5HuwKkQUDPiQHQ-2a5shkMhwiPAoIxOaIhWu~x8uMNielf8t4q-SaihCnZ4GBAWRisx-oHeRgw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4),
+        lightgray 50% / cover no-repeat;
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    padding-top: 72px;
+
+    @media only screen and (max-width: 768px) {
+        gap: 14px;
+        padding: 32px 16px 16px 16px;
+    }
+}
+
+.footerup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 105px;
+    padding-right: 330px;
+
+    @media only screen and (max-width: 768px) {
+        padding-left: 4px;
+        padding-right: 4px;
+        flex-direction: column;
+           }
+}
+
+.footerlefttext {
+    color: var(--grey-scale-200, rgba(255, 255, 255, 0.5));
+    font-family: Syne;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    @media only screen and (max-width: 768px) {
+        color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+        text-align: center;
+        font-family: Syne;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: normal;
+        width: 100%;
+        height: fit-content;
+        flex-shrink: 0;
+        margin-bottom: 8px;
+    }
+}
+
+.footerlefttext1 {
+    color: var(--grey-scale-200, rgba(255, 255, 255, 0.5));
+    /* Body text 18 */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 337px;
+
+    @media only screen and (max-width: 768px) {
+        color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 14px;
+        line-height: normal;
+        width: 100%;
+        height: fit-content;
+        overflow-wrap: break-word;
+        margin-bottom: 16px;
+
+    }
+}
+
+.footerlow {
+    color: var(--grey-scale-000, #fff);
+    font-family: Syne;
+    font-size: 135px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 102.6px;
+    padding-left: 90px;
+    padding-right: 191px;
+
+    @media only screen and (max-width: 768px) {
+        display: none;
+        padding-left: 4px;
+        padding-right: 4px;
+        margin-bottom: 16px;
+    }
+}
+
+.inp {
+    background: none;
+    color: var(--grey-scale-200, rgba(255, 255, 255, 0.5));
+    border-width: 0;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    width: 558px;
+    border-bottom: 2px solid var(--grey-scale-200, rgba(255, 255, 255, 0.5));
+
+    @media only screen and (max-width: 768px) {
+        width: 80vw;
+    }
+}
+
+.footerlow1 {
+    display: none;
+    color: var(--grey-scale-000, #fff);
+    font-family: Syne;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 90px;
+    padding-right: 191px;
+
+    @media only screen and (max-width: 768px) {
+        display: inline;
+        padding-left: 4px;
+        padding-right: 4px;
+        margin-top: 16px;
+    }
+}
+
+.sendimg{
+    position:absolute;
+    right: 170px;
+    top: 1560px;
+  
+    @media only screen and (max-width: 768px) {
+        position:absolute;
+        right: 0px;
+        top: 1655px;
+       
+    }
+
+}
+
+.sendimg1{
+    @media only screen and (max-width: 768px) {
+        
+        width: 100px;
+         height: 100px;
+    }
+}
+
+.inp1{
+        background: none;
+        color: red;
+        border-width: 0;
+        box-shadow: none;
+        outline: none;
+        border: none;
+        width: 558px;
+        border-bottom: 2px solid red;
+    
+        @media only screen and (max-width: 768px) {
+            width: 80vw;
+        }
+}

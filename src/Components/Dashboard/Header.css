@@ -1,0 +1,44 @@
+html * {
+  padding: 0px;
+  margin: 0px;
+  font-family: Poppins;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90px;
+  background: #1a1a1a;
+  color: #626262;
+  font-family: Poppins !important;
+  font-size: 12px;
+  font-weight: 400;
+  align-items: center;
+  height: 42px;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 20px;
+    color: #626262;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+#follow{
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.img {
+  margin: 0 4px;
+}

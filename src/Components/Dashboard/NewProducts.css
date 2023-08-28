@@ -1,0 +1,70 @@
+.newProductsText {
+    color: var(--grey-scale-1000, #000);
+
+    /* H2 title */
+    font-family: Syne;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 40px;
+    }
+
+}
+
+.productLine {
+    max-width: 648px;
+    height: 1px;
+    background: #161615;
+}
+
+.newProducts {
+    margin-left: 78px;
+
+    @media only screen and (max-width: 768px) {
+        margin-left: 16px;
+    }
+}
+
+.mainproducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coursalContainer {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+}
+
+.mobileArrow {
+    display: none !important;
+
+    @media only screen and (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.destopArrow {
+    display: none;
+    @media only screen and (max-width: 768px) {
+        display: none !important;
+    }
+}
+
+
+.newProducts {
+    display: flex;
+    flex-direction: row;
+    
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
